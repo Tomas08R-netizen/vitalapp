@@ -39,7 +39,7 @@ st.markdown(
 html, body, .stApp { background-color: #ffffff !important; color: #1c2540; }
 html, body, [class*="css"] { font-family: 'Open Sans', sans-serif; }
 h1, h2, h3 { font-family: 'Poppins', sans-serif !important; color: #14275f; }
-.block-container { max-width: 1120px; padding-top: 2rem; }
+.block-container { max-width: 1120px; padding-top: 5rem; }
 .eyebrow { font-weight: 600; font-size: 14px; letter-spacing: .12em; text-transform: uppercase; color: #07708a; margin: 0 0 12px; }
 .hero-title { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: clamp(34px, 5vw, 54px); line-height: 1.1; color: #14275f; margin: 0 0 16px; }
 .lead { font-size: 18px; color: #3d4a70; }
