@@ -34,6 +34,9 @@ st.markdown(
     """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap');
+/* Siempre en modo claro: evita que el modo noche del dispositivo/navegador cambie los colores */
+:root, html, body { color-scheme: light only; }
+html, body, .stApp { background-color: #ffffff !important; color: #1c2540; }
 html, body, [class*="css"] { font-family: 'Open Sans', sans-serif; }
 h1, h2, h3 { font-family: 'Poppins', sans-serif !important; color: #14275f; }
 .block-container { max-width: 1120px; padding-top: 2rem; }
